@@ -1,0 +1,71 @@
+/* Сброс стилей по умолчанию */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body {
+    font-family: Arial, sans-serif; /* Шрифт страницы */
+    line-height: 1.6; /* Высота строки */
+    background-color: #f4f4f4; /* Цвет фона */
+    color: #333; /* Цвет текста */
+    padding: 20px; /* Внутренний отступ для всего тела */
+}
+
+/* Заголовок */
+h2 {
+    color: #4CAF50; /* Цвет заголовка */
+    margin-bottom: 20px; /* Отступ снизу заголовка */
+}
+
+/* Формы */
+form {
+    background: white; /* Цвет фона формы */
+    padding: 20px; /* Внутренний отступ для формы */
+    border-radius: 5px; /* Закругление углов */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тень для формы */
+    margin-bottom: 20px; /* Отступ снизу формы */
+    display: inline;
+    justify-content: center;
+}
+
+/* Поля ввода */
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="submit"] {
+    width: 400px; /* Ширина 100% */
+    padding: 10px; /* Внутренний отступ */
+    margin-bottom: 10px; /* Отступ снизу */
+    border: 1px solid #ccc; /* Цвет рамки */
+    border-radius: 4px; /* Закругление углов */
+}
+
+/* Цвет для кнопки */
+input[type="submit"] {
+    background-color: #4CAF50; /* Цвет фона кнопки */
+    color: white; /* Цвет текста кнопки */
+    border: none; /* Убрать рамку */
+    cursor: pointer; /* Курсор при наведении */
+}
+
+/* Эффект при наведении на кнопку */
+input[type="submit"]:hover {
+    background-color: #45a049; /* Более темный цвет фона при наведении */
+}
+
+/* Ссылки */
+a {
+    color: #4CAF50; /* Цвет ссылок */
+    text-decoration: none; /* Убрать подчеркивание */
+    justify-content: center;
+}
+
+a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
