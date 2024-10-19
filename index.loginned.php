@@ -58,10 +58,6 @@
             <button class="next" onclick="moveSlide(1)">&#10095;</button>
         </div>
     </section>
-
-    <footer>
-        <p>Пожалуйста, <a href="views/login.php">войдите</a> или <a href="views/register.php">зарегистрируйтесь</a>.</p>
-    </footer>
     
     <script src="script.js"></script>
     <script src="background.js"></script>
